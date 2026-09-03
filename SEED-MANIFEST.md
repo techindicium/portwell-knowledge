@@ -1,7 +1,8 @@
 # Seed manifest, KDLC track
 
-**Status:** the shell is in place and `make verify` passes. The track's domain material is not
-seeded yet. This file is the specification for that work.
+**Status:** the shell is in place. The track ships the legacy starting condition only, with no
+lifecycle, no controls, and no process verification, because building those is the four modules'
+work. The track's domain material is not seeded yet. This file is the specification for that work.
 
 **Audience:** teaching team. Delete this file before handing the repository to participants.
 
@@ -27,7 +28,8 @@ published, and maintained knowledge artifact.
 | `docs/dependencies.md` | The `article-index` contract this track publishes, and who breaks when it slips | The SDLC track is the consumer |
 | `docs/backlog.md` | Eight to twelve items, one of which does not apply here | |
 | `docs/architecture-rules.md` | Append KDLC rules and the blast-radius table | High-radius: billing and integrations article changes |
-| `scenarios/visible/SC-KDLC-01..06.yaml` | One per family, plus a second adversarial | Each names a real article |
+| `legacy/tracker.csv` | What is in flight, with inconsistent statuses and missing owners | The Module 1 trace starts here |
+| `legacy/incidents/` | `INC-01` and `INC-02` as this track saw them | Each traceable to a control that does not exist |
 
 ## Seeded problems, one per family
 
@@ -50,7 +52,7 @@ byte-for-byte in content, or update both together.
 
 ## Acceptance
 
-- `make verify` passes on a clean clone.
+- `make test` passes on a clean clone, or reports that the track has no tests yet.
 - `project/index-build.py` produces an index that matches the SDLC track's copy.
 - Every visible scenario names a real article and states what it detects.
 - The five seeded problems are recorded in `course-shared/heldout/seeded-defects.md`.

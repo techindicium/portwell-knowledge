@@ -1,15 +1,7 @@
 {
-  "name": "kdlc-delivery-system",
+  "name": "portwell-knowledge",
   "version": "0.1.0",
-  "description": "Agentic Knowledge Development Lifecycle delivery system for the Portwell Assist course fixture. Extended weekly by the track's four groups.",
-  "author": {
-    "name": "Advanced SDLC and harness engineering, KDLC track"
-  },
-  "category": "development",
-  "keywords": [
-    "harness-engineering",
-    "kdlc",
-    "lifecycle",
-    "course-fixture"
-  ]
+  "description": "Knowledge base at Portwell Software.",
+  "author": { "name": "Portwell Software" },
+  "keywords": ["portwell", "knowledge"]
 }

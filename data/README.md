@@ -1,25 +1,31 @@
 # Data
 
-The operational data this team works with. Most of it is a snapshot of what the systems hold;
-the rest is what people keep alongside them in files.
+What this team works with.
 
-<!-- SEED: describe this repository's data files and databases, what each is for, and where each
-     comes from. Say which are extracted from another system and how old the extract is. -->
+| Path | Is |
+| :- | :- |
+| `packs/2026-07/` | The July packs, all three sent |
+| `packs/2026-08/` | August. One pack in progress, two not started. |
+| `figures/` | What analytics sent. The date is in the filename and nowhere inside. |
+| `articles/` | The help articles, one file each, front matter plus body |
+| `article-index.json` | Generated from `articles/` by `project/index-build.py`. Read by the support assistant. |
+| `tracker.csv` | What is in flight |
 
-## Where it comes from
+## The figures
 
-Some of this is exported from a system on a schedule, some was exported once by hand and never
-refreshed, and some was typed. The distinction is not recorded anywhere except here, and this
-file is not always updated.
+Three exports for two months. `warehouse-export-2026-08-01.csv` is the first cut of July;
+`warehouse-export-2026-08-06.csv` is July again after a late batch of tickets landed. Nothing
+records which export a given pack was built from.
 
-## Known problems
+## The packs
 
-The data is not clean. Known issues are listed in the tracker where anyone bothered to file
-them. Others are simply present.
+Each is a workbook and a document. The workbook holds the figures, the volumes and the open
+escalations. The document holds the narrative.
 
-Two habits worth adopting when reading any of it:
+The workbook carries formulas for the percentages and stored results from whenever it last
+recalculated. Those two can disagree. `docs/incidents/INC-04.md` is what happened when they did.
 
-- Check whether a record has been superseded before relying on it. Some superseded records are
-  still reachable and look current.
-- Check how old an extract is. Where the age is not recorded, treat it as unknown rather than
-  assuming it is recent.
+## Reading a workbook
+
+A reader that wants the stored number and a reader that wants the formula are asking different
+questions, and in at least one file here they get different answers.

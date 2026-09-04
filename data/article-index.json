@@ -1,0 +1,110 @@
+{
+  "$contract": "article-index",
+  "$version": 2,
+  "$produced_by": "reporting",
+  "$handed_off_at": "2026-08-26",
+  "$note": "A handoff, not a source. The articles live in data/articles/ and this file is generated from them. Consumers filter on status.",
+  "articles": [
+    {
+      "article_id": "KB-0142",
+      "title": "Refund window for over-billed storage fees",
+      "area": "billing",
+      "status": "published",
+      "source": "https://portwell.example/policy/refunds",
+      "reviewer": "P-PRI",
+      "reviewed_at": "2026-07-28",
+      "supersedes": [
+        "KB-0117"
+      ],
+      "body": "Over-billed storage fees are refundable within 60 days of the invoice date. Raise a billing correction from the invoice detail view. Enterprise accounts may request a retroactive correction beyond 60 days through their customer success contact."
+    },
+    {
+      "article_id": "KB-0117",
+      "title": "Refund window for storage fee corrections",
+      "area": "billing",
+      "status": "published",
+      "source": "https://portwell.example/policy/refunds-2024",
+      "reviewer": "P-PRI",
+      "reviewed_at": "2025-11-02",
+      "supersedes": null,
+      "body": "Storage fee corrections are refundable within 30 days of the invoice date."
+    },
+    {
+      "article_id": "KB-0128",
+      "title": "Resolving EDI inbound feed rejections",
+      "area": "integrations",
+      "status": "published",
+      "source": "https://portwell.example/docs/edi-troubleshooting",
+      "reviewer": "P-PRI",
+      "reviewed_at": "2026-06-30",
+      "supersedes": null,
+      "body": "An inbound EDI feed rejecting messages with code E-114 has a schema mismatch on the ASN segment. Compare the partner profile against the current ASN template before changing retry settings. Do not disable webhook retries: the feed depends on them for at-least-once delivery."
+    },
+    {
+      "article_id": "KB-0131",
+      "title": "Cycle count variance thresholds",
+      "area": "cycle-count",
+      "status": "published",
+      "source": null,
+      "reviewer": null,
+      "reviewed_at": "2026-05-19",
+      "supersedes": null,
+      "body": "Variance above two percent on a cycle count opens a discrepancy task. The threshold is configurable per warehouse."
+    },
+    {
+      "article_id": "KB-0135",
+      "title": "Picking wave will not release",
+      "area": "picking",
+      "status": "published",
+      "source": "https://portwell.example/docs/picking-waves",
+      "reviewer": "P-JOA",
+      "reviewed_at": "2026-08-01",
+      "supersedes": null,
+      "body": "A wave that will not release usually has an unallocated line. Open the wave detail and check the allocation column before re-running the release job."
+    },
+    {
+      "article_id": "KB-0139",
+      "title": "Password reset for warehouse operators",
+      "area": "auth",
+      "status": "published",
+      "source": "https://portwell.example/docs/operator-accounts",
+      "reviewer": "P-JOA",
+      "reviewed_at": "2026-01-08",
+      "supersedes": null,
+      "body": "A supervisor resets an operator password from the user administration screen. Self-service reset is not enabled for operator roles."
+    },
+    {
+      "article_id": "KB-0144",
+      "title": "Reading the deflection figure on the support dashboard",
+      "area": "reporting",
+      "status": "published",
+      "source": "internal analytics wiki",
+      "reviewer": "P-SOF",
+      "reviewed_at": "2026-08-11",
+      "supersedes": null,
+      "body": "The deflection figure on the support dashboard uses deflection_rate version 3, which excludes tickets reopened within 48 hours."
+    },
+    {
+      "article_id": "KB-0151",
+      "title": "Putaway suggestions ignore zone capacity",
+      "area": "putaway",
+      "status": "in_review",
+      "source": "https://portwell.example/docs/putaway-zones",
+      "reviewer": "P-PRI",
+      "reviewed_at": "2026-08-25",
+      "supersedes": null,
+      "body": "Putaway suggestions respect zone capacity only when the zone has a maximum configured."
+    },
+    {
+      "article_id": "KB-0156",
+      "title": "Billing correction turnaround",
+      "area": "billing",
+      "status": "retired",
+      "source": "https://portwell.example/policy/refunds-2024",
+      "reviewer": "P-PRI",
+      "reviewed_at": "2025-09-14",
+      "supersedes": null,
+      "body": "Billing corrections are processed within ten business days."
+    }
+  ]
+}

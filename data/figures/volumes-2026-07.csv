@@ -1,0 +1,27 @@
+# from: P-DEC, analytics
+# sent: 2026-08-06
+account_id,area,tickets
+ACC-1001,picking,23
+ACC-1001,receiving,20
+ACC-1001,integrations,18
+ACC-1001,billing,15
+ACC-1001,reporting,6
+ACC-1001,auth,5
+ACC-1001,cycle-count,5
+ACC-1001,putaway,3
+ACC-1003,receiving,16
+ACC-1003,picking,16
+ACC-1003,putaway,13
+ACC-1003,billing,13
+ACC-1003,cycle-count,7
+ACC-1003,integrations,6
+ACC-1003,auth,4
+ACC-1003,reporting,2
+ACC-1008,picking,32
+ACC-1008,receiving,20
+ACC-1008,billing,15
+ACC-1008,cycle-count,14
+ACC-1008,putaway,12
+ACC-1008,reporting,10
+ACC-1008,auth,6
+ACC-1008,integrations,6

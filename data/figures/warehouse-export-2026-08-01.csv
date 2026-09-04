@@ -1,0 +1,7 @@
+# from: P-DEC, analytics
+# sent: 2026-08-01
+# note: July figures, first cut
+account_id,account_name,commitment_minutes,tickets,within_commitment,attainment,closed_tickets,proposals_created,deflected_tickets,deflection_rate,first_response_p50
+ACC-1001,Nordkai Logistics,30,91,34,0.3736,91,67,34,0.3736,53
+ACC-1003,Halden Cold Chain,30,77,23,0.2987,77,53,31,0.4026,74
+ACC-1008,Sunder Retail Supply,30,115,31,0.2696,115,82,40,0.3478,70

@@ -1,65 +1,70 @@
-# How the {{TRACK_UPPER}} work gets done today
+# How the reporting work gets done today
 
 Written by whoever was asked to write it, at some point, and not revised since. It is the only
-description of the process that exists.
+written description of the process, and `docs/interviews/` contradicts parts of it.
 
-> **A note for the reader.** This is not a specification. Parts of it are optimistic, parts are
-> contradicted by the tracker and by the write-ups in `docs/incidents/`, and the parts that
-> describe judgment calls do not say who makes them.
+> **A note for the reader.** This is not a specification. Where it disagrees with the
+> interviews or with what is actually in `data/packs/`, the interviews and the files are the
+> record and this is the aspiration.
 
-## The rough shape
+## The monthly service review pack
 
-1. Something arrives. It might be a request, a report, a question, or a decision somebody needs.
-2. Whoever picks it up works out what it involves, mostly by asking someone who was there last
-   time.
-3. They do the work.
-4. Someone else looks at it, when there is time.
-5. It ships, or it is handed on, or it stalls and nobody notices for a while.
-6. If it goes wrong, that surfaces later, usually from outside.
+Every Enterprise account is owed one within five business days of month end. Three accounts
+qualify: `ACC-1001`, `ACC-1003` and `ACC-1008`.
 
-## Where it is written down
+1. The month closes.
+2. Analytics sends the figures, usually as a CSV in the shared folder, sometimes pasted into a
+   message. Nothing states which version of a metric definition produced them.
+3. Last month's workbook is copied, renamed, and the input cells are typed over. The
+   percentages recalculate.
+4. The volumes tab is pasted in from a second file.
+5. The narrative is written in a separate document. It says what moved and, where the author
+   happens to know, why.
+6. Both files go to the account.
 
-| Thing | Where it lives | Kept current? |
+Steps 2 and 5 are where the judgment is, and neither leaves a record.
+
+## What is written down
+
+| Thing | Where | Kept current? |
 | :- | :- | :- |
-| What is in flight | the tracker | Partly. Statuses are not consistent and some are stale. |
-| What was decided | Mostly nowhere. Some in the tracker's notes column. | No |
-| Why it was decided | In the heads of the people involved | No |
-| What was checked before it shipped | Whatever the pull request or handoff note happens to say | No |
-| What went wrong afterwards | `docs/incidents/`, written after the fact | Only for incidents big enough to write up |
+| The packs that were sent | `data/packs/<month>/` | Yes, they are the artifact |
+| The figures they were built from | `data/figures/` | Partly. Filenames carry the date; nothing inside does. |
+| Which export a given pack used | Nowhere | No |
+| Which metric version a figure came from | Nowhere | No |
+| Who reviewed a pack before it went out | Nowhere | No |
+| Why a number moved | In the narrative, when the author knew | No |
+| The help articles | `data/articles/` | Partly. See `POL-04`. |
+
+## The deadline
+
+Five business days after month end, in the Enterprise contracts. Missed twice in the last year,
+both times because a person was on leave. Nothing chased on either occasion.
+
+A late pack is a contractual breach. A wrong pack is worse and is much harder to notice, which
+is the trade-off the process does not currently make anyone confront.
 
 ## The judgment calls nobody wrote down
 
-These get made every week. The process does not say who makes them, on what evidence, or what
-happens when the answer is unclear.
+- Whether the figures received are current enough for the period being reported.
+- Whether a number is fit to put in front of a paying customer.
+- Whether a change in a figure is real or a change in how it was measured.
+- Whether a pack needs a second reader. `POL-14` says always. Practice is: when it feels
+  sensitive.
+- What to write when the author does not know why something moved.
 
-- Whether a thing is small enough to do without asking anyone.
-- Whether a source is current enough to rely on.
-- Whether something needs review, and who is qualified to give it.
-- When to stop trying and escalate.
-- What counts as done.
+## The help articles
 
-## What people say about it
+The same person maintains the customer-facing help articles. `project/index-build.py` produces
+the `article-index` handoff that the Assist service retrieves from.
 
-Kept verbatim, because the wording matters.
+There is no schedule for reviewing an article. `POL-04` asks for re-verification past 180 days
+and nothing measures article age.
 
-> "It works fine until the person who knows leaves." Support engineer, retrospective note.
+## What people say
 
-> "I can find out what we did. I cannot find out why." Analytics lead, on the tracker.
+> "I do not know a number is right. I know it is what Declan sent me."
+> `P-LUC`, 2026-08-14.
 
-> "Nobody skipped the check. There was no check." Head of Engineering, on `INC-02`.
-
-## The two incidents
-
-Both came out of the Assist pilot. Both are written up in `docs/incidents/`. Neither had a
-control that would have caught it, which is the point of writing them up here.
-
-| Incident | What happened |
-| :- | :- |
-| `INC-01` | A superseded refund window reached a customer. |
-| `INC-02` | Advice to disable a webhook retry stopped an account's inbound feed. |
-
-## If this document is wrong
-
-It probably is, in places. The tracker and the incident write-ups are the record of what
-happened; this is one person's account of how it is supposed to happen. Where they disagree,
-the record wins.
+> "A late pack announces itself. A wrong number sits in my model until somebody notices."
+> `P-HEN`, 2026-08-21.

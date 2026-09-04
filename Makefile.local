@@ -1,0 +1,13 @@
+# Reporting additions.
+
+PYTEST_PATHS =
+
+.PHONY: index index-check
+
+# Rebuild the article index that the support assistant retrieves from.
+index:
+	@$(PYTHON) project/index-build.py
+
+# Fail if the written index is out of date against data/articles/.
+index-check:
+	@$(PYTHON) project/index-build.py --check

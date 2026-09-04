@@ -1,10 +1,10 @@
 ---
-id: KB-0144
+id: ARTICLE-0144
 title: Reading the deflection figure on the support dashboard
 area: reporting
 status: published
 source: internal analytics wiki
-reviewer: P-SOF
+reviewer: Sofia Marques
 reviewed_at: 2026-08-11
 ---
 

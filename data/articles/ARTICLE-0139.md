@@ -1,10 +1,10 @@
 ---
-id: KB-0139
+id: ARTICLE-0139
 title: Password reset for warehouse operators
 area: auth
 status: published
 source: https://portwell.example/docs/operator-accounts
-reviewer: P-JOA
+reviewer: Joao Pinto
 reviewed_at: 2026-01-08
 ---
 

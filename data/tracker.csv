@@ -1,15 +1,15 @@
 item,title,kind,status,owner,opened,last_touched,notes
-ISS-50,Figures in a pack carry no source,improvement,open,P-LUC,2026-08-14,,"Came out of the process interview. POL-13 already requires it."
-ISS-51,No record that a pack was reviewed,improvement,Open,P-LUC,2026-08-14,,"POL-14 has never been enforceable."
-ISS-52,Deflection vs automation rate,question,open,P-HEN,2026-08-18,2026-08-21,"REQ-011 with analytics. No reply."
-ISS-53,Percentages not re-checked after inputs change,bug,open,,2026-08-24,,"From INC-04. Other two July packs not checked."
-ISS-54,Nothing measures article age,improvement,Open,P-ANA,2026-07-30,,"KB-0139 is 237 days old."
-ISS-55,Index publishes articles missing source or reviewer,bug,open,P-PRI,2026-08-02,2026-08-19,"KB-0131. POL-02 says not eligible."
-ISS-57,August packs for ACC-1003 and ACC-1008 not started,task,In Progress,P-LUC,2026-08-31,2026-09-02,"Due 09-04."
-ISS-58,Move packs to the new template branding,chore,open,,2026-04-11,,"Template was never produced."
-PACK-2026-07-ACC-1001,July pack Nordkai,pack,sent,P-LUC,2026-08-03,2026-08-06,"Sent 08-06. See INC-04."
-PACK-2026-07-ACC-1003,July pack Halden,pack,Sent,P-LUC,2026-08-04,2026-08-04,
-PACK-2026-07-ACC-1008,July pack Sunder,pack,sent,P-LUC,2026-08-05,2026-08-05,
-PACK-2026-08-ACC-1001,August pack Nordkai,pack,in progress,P-LUC,2026-08-31,2026-09-02,"Figures from the 08-29 export."
-PACK-2026-08-ACC-1003,August pack Halden,pack,not started,,,,"Due 09-04."
-PACK-2026-08-ACC-1008,August pack Sunder,pack,not started,,,,"Due 09-04."
+ISSUE-50,Figures in a pack carry no source,improvement,open,Lucia Ferreira,2026-08-14,,"Came out of the process interview. POLICY-13 already requires it."
+ISSUE-51,No record that a pack was reviewed,improvement,Open,Lucia Ferreira,2026-08-14,,"POLICY-14 has never been enforceable."
+ISSUE-52,Deflection vs automation rate,question,open,Henrik Sole,2026-08-18,2026-08-21,"REQUEST-011 with analytics. No reply."
+ISSUE-53,Percentages not re-checked after inputs change,bug,open,,2026-08-24,,"From INCIDENT-04. Other two July packs not checked."
+ISSUE-54,Nothing measures article age,improvement,Open,Ana Fialho,2026-07-30,,"ARTICLE-0139 is 237 days old."
+ISSUE-55,Index publishes articles missing source or reviewer,bug,open,Priya Nair,2026-08-02,2026-08-19,"ARTICLE-0131. POLICY-02 says not eligible."
+ISSUE-57,August packs for ACCOUNT-1003 and ACCOUNT-1008 not started,task,In Progress,Lucia Ferreira,2026-08-31,2026-09-02,"Due 09-04."
+ISSUE-58,Move packs to the new template branding,chore,open,,2026-04-11,,"Template was never produced."
+PACK-2026-07-ACCOUNT-1001,July pack Nordkai,pack,sent,Lucia Ferreira,2026-08-03,2026-08-06,"Sent 08-06. See INCIDENT-04."
+PACK-2026-07-ACCOUNT-1003,July pack Halden,pack,Sent,Lucia Ferreira,2026-08-04,2026-08-04,
+PACK-2026-07-ACCOUNT-1008,July pack Sunder,pack,sent,Lucia Ferreira,2026-08-05,2026-08-05,
+PACK-2026-08-ACCOUNT-1001,August pack Nordkai,pack,in progress,Lucia Ferreira,2026-08-31,2026-09-02,"Figures from the 08-29 export."
+PACK-2026-08-ACCOUNT-1003,August pack Halden,pack,not started,,,,"Due 09-04."
+PACK-2026-08-ACCOUNT-1008,August pack Sunder,pack,not started,,,,"Due 09-04."

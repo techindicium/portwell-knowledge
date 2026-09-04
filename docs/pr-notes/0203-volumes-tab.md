@@ -1,6 +1,6 @@
 # Change note 0203: add a volumes tab to the pack template
 
-**Changed:** 2026-05-19. **Author:** P-LUC. **Reviewer:** none.
+**Changed:** 2026-05-19. **Author:** Lucia Ferreira. **Reviewer:** none.
 
 ## What changed
 

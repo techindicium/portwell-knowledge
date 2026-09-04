@@ -1,10 +1,10 @@
 ---
-id: KB-0128
+id: ARTICLE-0128
 title: Resolving EDI inbound feed rejections
 area: integrations
 status: published
 source: https://portwell.example/docs/edi-troubleshooting
-reviewer: P-PRI
+reviewer: Priya Nair
 reviewed_at: 2026-06-30
 ---
 

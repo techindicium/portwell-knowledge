@@ -1,10 +1,10 @@
 ---
-id: KB-0151
+id: ARTICLE-0151
 title: Putaway suggestions ignore zone capacity
 area: putaway
 status: in_review
 source: https://portwell.example/docs/putaway-zones
-reviewer: P-PRI
+reviewer: Priya Nair
 reviewed_at: 2026-08-25
 ---
 

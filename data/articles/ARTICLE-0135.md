@@ -1,10 +1,10 @@
 ---
-id: KB-0135
+id: ARTICLE-0135
 title: Picking wave will not release
 area: picking
 status: published
 source: https://portwell.example/docs/picking-waves
-reviewer: P-JOA
+reviewer: Joao Pinto
 reviewed_at: 2026-08-01
 ---
 

@@ -1,10 +1,10 @@
 ---
-id: KB-0117
+id: ARTICLE-0117
 title: Refund window for storage fee corrections
 area: billing
 status: published
 source: https://portwell.example/policy/refunds-2024
-reviewer: P-PRI
+reviewer: Priya Nair
 reviewed_at: 2025-11-02
 ---
 

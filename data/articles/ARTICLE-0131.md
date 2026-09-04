@@ -1,5 +1,5 @@
 ---
-id: KB-0131
+id: ARTICLE-0131
 title: Cycle count variance thresholds
 area: cycle-count
 status: published

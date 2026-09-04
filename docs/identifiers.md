@@ -7,18 +7,18 @@ never renumber, what another team produces.
 
 | Entity | Format | Reserved range | Notes |
 | :- | :- | :- | :- |
-| Article | `KB-NNNN` | `KB-0400` and above for new articles | The existing nine are below that and keep their numbers. |
+| Article | `ARTICLE-NNNN` | `ARTICLE-0400` and above for new articles | The existing nine are below that and keep their numbers. |
 | Pack | `<ACC>-<YYYY-MM>` | n/a | The filename is the identifier. There is no register of packs anywhere else. |
 
 ## Borrowed
 
 | Entity | Format | Owned by | Notes |
 | :- | :- | :- | :- |
-| Account | `ACC-NNNN` | Assist engineering, via the CRM | Three Enterprise accounts are owed packs. |
-| Metric | name plus version | Analytics | Figures arrive without the version. `POL-13` says the pack must state it. |
-| Ticket | `TCK-NNNNNN` | The support desk | Referenced in narratives, never renumbered. |
-| Escalation | `ESC-NNNN` | Support | Ages come from the desk verbally. |
-| Policy | `POL-NN` | Whoever owns the policy | Cited, never edited here. |
+| Account | `ACCOUNT-NNNN` | Assist engineering, via the CRM | Three Enterprise accounts are owed packs. |
+| Metric | name plus version | Analytics | Figures arrive without the version. `POLICY-13` says the pack must state it. |
+| Ticket | `TICKET-NNNNNN` | The support desk | Referenced in narratives, never renumbered. |
+| Escalation | `ESCALATION-NNNN` | Support | Ages come from the desk verbally. |
+| Policy | `POLICY-NN` | Whoever owns the policy | Cited, never edited here. |
 
 ## The published contract
 

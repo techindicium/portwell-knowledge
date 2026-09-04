@@ -1,4 +1,4 @@
-# INC-04: a July pack went out with a first-cut figure
+# INCIDENT-04: a July pack went out with a first-cut figure
 
 **Written:** 2026-08-24, by the service delivery manager.
 **Severity:** a wrong figure reached an Enterprise account. Not disputed, and not corrected.
@@ -35,7 +35,7 @@ Any of these, none of which exist:
 
 - A check that every percentage in a pack agrees with its own formula.
 - A record of which export each pack was built from, so a superseded export is visible.
-- A figure that carries its source and version, which `POL-13` already requires.
+- A figure that carries its source and version, which `POLICY-13` already requires.
 
 ## What was done
 

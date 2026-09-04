@@ -9,7 +9,7 @@ Reads every article in data/articles/, parses its front matter, and writes the h
 The index is a published contract. Assist engineering reads it and answers customers from what
 it contains, so what goes in here reaches a customer.
 
-Note on POL-02: it says an article without a source and a reviewer is not eligible for
+Note on POLICY-02: it says an article without a source and a reviewer is not eligible for
 retrieval. This build does not check that. An article missing either is written to the index
 like any other.
 """
@@ -57,8 +57,8 @@ def build() -> dict:
         }
         articles.append(entry)
 
-    order = ["KB-0142", "KB-0117", "KB-0128", "KB-0131", "KB-0135",
-             "KB-0139", "KB-0144", "KB-0151", "KB-0156"]
+    order = ["ARTICLE-0142", "ARTICLE-0117", "ARTICLE-0128", "ARTICLE-0131", "ARTICLE-0135",
+             "ARTICLE-0139", "ARTICLE-0144", "ARTICLE-0151", "ARTICLE-0156"]
     rank = {a: i for i, a in enumerate(order)}
     articles.sort(key=lambda a: rank.get(a["article_id"], 999))
 

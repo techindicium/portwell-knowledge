@@ -23,7 +23,7 @@ Each is a workbook and a document. The workbook holds the figures, the volumes a
 escalations. The document holds the narrative.
 
 The workbook carries formulas for the percentages and stored results from whenever it last
-recalculated. Those two can disagree. `docs/incidents/INC-04.md` is what happened when they did.
+recalculated. Those two can disagree. `docs/incidents/INCIDENT-04.md` is what happened when they did.
 
 ## Reading a workbook
 

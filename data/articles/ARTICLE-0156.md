@@ -1,10 +1,10 @@
 ---
-id: KB-0156
+id: ARTICLE-0156
 title: Billing correction turnaround
 area: billing
 status: retired
 source: https://portwell.example/policy/refunds-2024
-reviewer: P-PRI
+reviewer: Priya Nair
 reviewed_at: 2025-09-14
 ---
 

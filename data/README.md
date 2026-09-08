@@ -8,7 +8,7 @@ What this team works with.
 | `packs/2026-08/` | August. One pack in progress, two not started. |
 | `figures/` | What analytics sent. The date is in the filename and nowhere inside. |
 | `articles/` | The help articles, one file each, front matter plus body |
-| `article-index.json` | Generated from `articles/` by `project/index-build.py`. Read by the support assistant. |
+| `article-index.json` | Generated from `articles/` by `project/index-build.py`. Read by the help portal. |
 | `tracker.csv` | What is in flight |
 
 ## The figures

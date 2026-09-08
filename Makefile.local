@@ -4,7 +4,7 @@ PYTEST_PATHS =
 
 .PHONY: index index-check
 
-# Rebuild the article index that the support assistant retrieves from.
+# Rebuild the article index that the help portal retrieves from.
 index:
 	@$(PYTHON) project/index-build.py
 

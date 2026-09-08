@@ -22,11 +22,11 @@ exports for two months and the filenames are the only clue.
 | :- | :- | :- | :- |
 | Enterprise accounts | The service review pack | Five business days after month end, contractual | A contractual breach, or a wrong figure in front of a customer |
 | Finance | The same pack, read for three cells | None | The renewal model silently takes the wrong cells |
-| Assist engineering | `article-index.json` | Article identifiers, status, source, reviewer | The service retrieves articles it should not, or misses ones it should |
+| Portal engineering | `article-index.json` | Article identifiers, status, source, reviewer | The service retrieves articles it should not, or misses ones it should |
 
 ## The article index
 
-`project/index-build.py` reads `data/articles/` and writes the index the Assist service
+`project/index-build.py` reads `data/articles/` and writes the index the help portal
 consumes. The build does not check `POLICY-02`, so an article with no source and no reviewer is
 published into the index and retrieved.
 

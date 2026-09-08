@@ -56,7 +56,7 @@ is the trade-off the process does not currently make anyone confront.
 ## The help articles
 
 The same person maintains the customer-facing help articles. `project/index-build.py` produces
-the `article-index` handoff that the Assist service retrieves from.
+the `article-index` handoff that the help portal retrieves from.
 
 There is no schedule for reviewing an article. `POLICY-04` asks for re-verification past 180 days
 and nothing measures article age.

@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Build the article index the support assistant retrieves from.
+"""Build the article index the help portal retrieves from.
 
 Reads every article in data/articles/, parses its front matter, and writes the handoff file.
 
     python3 project/index-build.py                 # write the index
     python3 project/index-build.py --check         # exit 1 if the written index is out of date
 
-The index is a published contract. Assist engineering reads it and answers customers from what
+The index is a published contract. Portal engineering reads it and answers customers from what
 it contains, so what goes in here reaches a customer.
 
 Note on POLICY-02: it says an article without a source and a reviewer is not eligible for

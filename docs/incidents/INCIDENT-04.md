@@ -14,7 +14,7 @@ recomputed, so the file went out with the corrected ticket counts and the first-
 percentages.
 
 Attainment was reported as 37.4 per cent. On the corrected figures it is 36.8 per cent.
-Deflection was reported as 37.4 per cent. It is 38.9 per cent.
+Self-service was reported as 37.4 per cent. It is 38.9 per cent.
 
 ## How it was found
 
